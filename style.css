@@ -31,6 +31,10 @@ a{
   color: black;
 }
 
+.m-left-30{
+  margin-left: 30px;
+}
+
 /* header */
 
 .header-main{
@@ -42,6 +46,8 @@ a{
   margin-top: 30px;
 }
 
+/* nav-right */
+
 .logo{
   width: 100px;
   height: auto;
@@ -52,4 +58,34 @@ a{
   display: flex;
   align-items: center;
   margin-right: 30px;
+}
+
+/* nav-left */
+
+.list-left{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.box{
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.beta{
+  align-self: flex-end;
+}
+
+.nav-left .with-dropwon{
+  position: relative;
+}
+.nav-left .dropdown-menu{
+ position: absolute;
+ top: 100%;
+ margin-top: 30px;
+ width: 300px;
+ padding-bottom: 30px;
 }
