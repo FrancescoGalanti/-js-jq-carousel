@@ -1,3 +1,55 @@
+/* general setting */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
- background-color: red;
+  font-family: sans-serif;
+}
+
+
+
+/* UTILITTIES */
+
+/* typo */
+
+a{
+ color: #80808061;
+ text-decoration: none;
+}
+
+/* layout */
+
+.m-right-30{
+  margin-right: 30px;
+}
+
+.color-black{
+  color: black;
+}
+
+/* header */
+
+.header-main{
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+}
+
+.list-right{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
