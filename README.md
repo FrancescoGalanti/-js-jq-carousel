@@ -1,1 +1,1 @@
- js-jq-carousel
+js-pwdgen-wannabe
