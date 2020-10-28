@@ -108,6 +108,8 @@ a{
 .nav-left .with-dropwon{
   position: relative;
 }
+
+/* evento javascript hide and show */
 .nav-left .dropdown-menu{
  position: absolute;
  top: 100%;
