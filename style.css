@@ -11,6 +11,9 @@ body{
 }
 
 
+/* DESKTOP FIRST */
+
+
 
 /* UTILITTIES */
 
@@ -35,6 +38,12 @@ a{
   margin-left: 30px;
 }
 
+/* hover */
+
+.hover:focus,
+.hover:hover{
+  color: black;
+}
 /* header */
 
 .header-main{
@@ -44,6 +53,18 @@ a{
   margin: 0 auto;
   align-items: center;
   margin-top: 30px;
+}
+
+/* btn */
+
+.btn{
+  width: 200px;
+  padding: 9px 5px;
+  border-radius: 30%;
+  background-color: red;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* nav-right */
@@ -73,11 +94,16 @@ a{
   display: flex;
   padding-bottom: 20px;
   padding-left: 15px;
+  font-size: 14px;
 }
 
 .beta{
-  align-self: flex-end;
+  position: relative;
+  top: -10px;
+  color: red;
 }
+
+/* dropdown menu */
 
 .nav-left .with-dropwon{
   position: relative;
@@ -86,6 +112,14 @@ a{
  position: absolute;
  top: 100%;
  margin-top: 30px;
- width: 300px;
+ width: 250px;
  padding-bottom: 30px;
+ right: -140px;
+ display: none;
+ box-shadow: 1px 1px #0000004d;
+}
+
+.nav-left .list-dropdown-menu{
+  width: 150px;
+  right: -50px;
 }
